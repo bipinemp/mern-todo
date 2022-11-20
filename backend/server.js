@@ -69,7 +69,7 @@ app.patch("/api/update/:id", (req, res) => {
     .catch((err) => console.log(err));
 });
 
-// Delete
+// Delete route
 app.delete("/api/delete/:id", (req, res) => {
   Todo.findByIdAndDelete({ _id: req.params.id })
     .then((doc) => null)
