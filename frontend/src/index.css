@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif, serif;
+}
+.todoform {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.todoform input,
+button {
+  width: 50%;
+  margin: 0px auto;
+}
